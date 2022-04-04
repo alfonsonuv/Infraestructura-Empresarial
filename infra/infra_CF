@@ -1,5 +1,5 @@
 Resources:
-  UbuntuServer20:
+  UbuntuServer20-04:
     Type: 'AWS::EC2::Instance'
     Properties:
       AvailabilityZone: us-est-1a
