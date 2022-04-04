@@ -1,0 +1,7 @@
+Resources:
+  UbuntuServer20:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      AvailabilityZone: us-est-1a
+      ImageId: ami-04505e74c0741db8d
+      InstanceType: t2.micro
