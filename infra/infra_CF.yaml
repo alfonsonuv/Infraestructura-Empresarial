@@ -5,10 +5,16 @@ Resources:
       AvailabilityZone: us-east-1a
       ImageId: ami-0e472ba40eb589f49
       InstanceType: t2.micro
-Resources:
+      Tags:
+      - Key: Name
+        Value: Ubuntu-Server-1804
+
   SuseLinuxES:
     Type: 'AWS::EC2::Instance'
     Properties:
       AvailabilityZone: us-east-1a
       ImageId: ami-08895422b5f3aa64a
       InstanceType: t2.micro
+      Tags:
+      - Key: Name
+        Value: SUSE-LINUX-SE
